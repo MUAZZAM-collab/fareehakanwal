@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom literary decorative accents */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(15, 39, 68, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #c28822 0%, #eab308 50%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navy-gradient-bg {
+  background: linear-gradient(135deg, #09182b 0%, #0f2744 50%, #134e4a 100%);
+}

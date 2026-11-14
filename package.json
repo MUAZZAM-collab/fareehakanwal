@@ -1,0 +1,22 @@
+{
+  "name": "fareeha-kanwal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Branding Website for Fareeha Kanwal - O/A Level English Educator",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "education",
+    "karachi",
+    "english-teacher"
+  ],
+  "author": "Fareeha Kanwal Academic Brand",
+  "license": "ISC"
+}
